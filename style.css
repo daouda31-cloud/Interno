@@ -10,7 +10,6 @@
 
 header {
     color: white;
-    text-decoration: none;
     padding: 3px 3px;
 }
 
@@ -27,11 +26,12 @@ header {
     border-radius: 16px;
 }
 
-.btn2{
+.btn2 {
     display: inline-block;
-    padding: 16px;
+    padding: 11px;
     text-decoration: none;
-    border-radius: 8px; color: white;
+    border-radius: 8px;
+    color: white;
     background-color: white;
     color: #D2D2D2;
 }
@@ -41,7 +41,7 @@ header {
     color: white;
 }
 
-.bg2{
+.bg2 {
     background-color: #292F36;
     color: white;
 }
@@ -73,9 +73,8 @@ header {
     align-items: center;
 }
 
-.gap8 {
+.gap16 {
     gap: 16px;
-
 }
 
 .contaner {
@@ -84,19 +83,71 @@ header {
     max-width: 1000px;
 }
 
-.w30{
+.w30 {
     width: 30%;
 }
-.w25{
+
+.w25 {
     width: 22%;
 }
-.w50{
+
+.w50 {
     width: 48%;
 }
 
-.dev{
-    background-position:right;
+.dev {
+    background-position: right;
 }
-.mg{
-    margin-bottom: 16px;
+
+.mg {
+    margin-top: 16px;
+}
+
+.pd {
+    padding: 64px;
+}
+
+.text {
+    text-align: center;
+}
+
+.margint20 {
+    margin-top: 20px;
+}
+
+.marginb20 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #292F36;
+}
+
+.border {
+    border-radius: 16px;
+
+}
+
+
+.border2 {
+    border-radius: 64px;
+    background-color: #F4F0EC;
+}
+
+.pd2{
+    padding: 38px;
+}
+.border3{
+    border-radius: 16px;
+    background-color: white;
+    padding: 16px;
+}
+.pdg3{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.width{
+    width: 100%;
 }
